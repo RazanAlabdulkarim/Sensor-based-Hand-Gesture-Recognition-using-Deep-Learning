@@ -1,1 +1,2 @@
-## Sensor-based-HGR-using-DL
+# Sensor-based-Hand-Gesture-Recognition-using-Deep-Learning
+
