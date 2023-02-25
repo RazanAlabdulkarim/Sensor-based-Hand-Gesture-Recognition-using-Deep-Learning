@@ -7,8 +7,6 @@ This study seeks to evaluate the performance of deep learning algorithms, namely
 #Step 1 : data collection
 We will use the hand gesture dataset from TeV Technologies of Vision [https://tev.fbk.eu/resources/smartwatch]. The dataset was collected using the accelerometer sensor in the first-generation Sony smartwatch and includes 20 gestures performed by eight different users. The dataset is organized into eight user folders, each containing 20 subfolders for each gesture. Each subfolder includes 20 instances of the gesture performed by the user. To simplify the analysis and management of the dataset, the dataset files have been consolidated into a single .txt file, results in a file of 63,168 rows.
 
-![image](https://user-images.githubusercontent.com/94287604/221333547-cdedd29b-5d1a-4894-9004-f337fec6bdb8.png)
-
 
 
 #Step 2: Data Pre-processing
