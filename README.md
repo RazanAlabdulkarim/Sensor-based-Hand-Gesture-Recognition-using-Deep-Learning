@@ -13,7 +13,7 @@ In this project, the dataset used is the [hand gesture dataset](https://tev.fbk.
 ## Data Splitting:
 The data was split 80/10/10 into training, validation, and testing sets. This allows for adequate training data while reserving data for evaluation and preventing overfitting.
 
-## Data segmentation experiment:
+## Data segmentation:
 To choose a suitable window size and overlapping ratio for the hand gesture dataset, an experiment was conducted. Window sizes of 5 to 200 were tested based on the range of rows for each gesture, and overlapping ratios of 0%, 25%, 50%, and 75% were also tested. The experiment was conducted on two models, CNN and LSTM.
 
 ![image](https://user-images.githubusercontent.com/94287604/221333529-e8c22d03-e631-47a4-a6b5-039d95474f03.png)
