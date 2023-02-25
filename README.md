@@ -16,6 +16,7 @@ The data was split 80/10/10 into training, validation, and testing sets. This al
 ## Data segmentation:
 To choose a suitable window size and overlapping ratio for the hand gesture dataset, an experiment was conducted. Window sizes of 5 to 200 were tested based on the range of rows for each gesture, and overlapping ratios of 0%, 25%, 50%, and 75% were also tested. The experiment was conducted on two models, CNN and LSTM. The experiment showed that higher overlapping ratios, particularly 75%, led to better performance in both the CNN and LSTM models across all tested window sizes. In addition, the window size was chosen is 50.
 
+## Deep Learning Model Implementation
 A hybrid CNN-LSTM structure is used to combine the strengths of both models, where the CNN extracts features and the LSTM performs classification. The hybrid model is constructed by combining the CNN and LSTM models.
 
 ![image](https://user-images.githubusercontent.com/94287604/221333569-c26b1fae-8524-4894-9dcb-57e5331c8f81.png)
